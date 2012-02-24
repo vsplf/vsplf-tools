@@ -31,7 +31,7 @@
   <packaging>pom</packaging>
 
   <name>vsplf-tools</name>
-  <description>build tools for all vsplf projects</description>
+  <description>development tools stuff for all vsplf projects</description>
 
   <modules>
     <module>vsplf-build-tools</module>
