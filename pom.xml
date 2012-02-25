@@ -33,8 +33,24 @@
   <name>vsplf-tools</name>
   <description>development tools stuff for all vsplf projects</description>
 
-  <modules>
-    <module>vsplf-build-tools</module>
-  </modules>
+
+  <repositories>
+    <repository>
+      <id>vsplf-release</id>
+      <name>vsplf release repo</name>
+      <url>http://repository-vsplf.forge.cloudbees.com/release/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>vsplf-snapshot</id>
+      <name>vsplf snapshot repo</name>
+      <url>http://repository-vsplf.forge.cloudbees.com/snapshot/</url>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+    </repository>
+  </repositories>
 
 </project>
